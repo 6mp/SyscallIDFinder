@@ -1,0 +1,26 @@
+Performing C++ SOURCE FILE Test has_std_20_flag failed with the following output:
+Change Dir: C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_fc58c\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.29.30129\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_fc58c.dir\build.make /nologo -L                  CMakeFiles\cmTC_fc58c.dir\build
+Building CXX object CMakeFiles/cmTC_fc58c.dir/src.cxx.obj
+	C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\clang-cl.exe @C:\Users\Matt\AppData\Local\Temp\nm947B.tmp
+clang-cl: warning: unknown argument ignored in clang-cl: '-std=c++20' [-Wunknown-argument]
+Linking CXX executable cmTC_fc58c.exe
+	C:\Users\Matt\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_fc58c.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\lld-link.exe /nologo @CMakeFiles\cmTC_fc58c.dir\objects1.rsp @C:\Users\Matt\AppData\Local\Temp\nm949B.tmp
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test has_std_2a_flag failed with the following output:
+Change Dir: C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_2de0a\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.29.30129\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_2de0a.dir\build.make /nologo -L                  CMakeFiles\cmTC_2de0a.dir\build
+Building CXX object CMakeFiles/cmTC_2de0a.dir/src.cxx.obj
+	C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\clang-cl.exe @C:\Users\Matt\AppData\Local\Temp\nm9537.tmp
+clang-cl: warning: unknown argument ignored in clang-cl: '-std=c++2a' [-Wunknown-argument]
+Linking CXX executable cmTC_2de0a.exe
+	C:\Users\Matt\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_2de0a.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\lld-link.exe /nologo @CMakeFiles\cmTC_2de0a.dir\objects1.rsp @C:\Users\Matt\AppData\Local\Temp\nm9557.tmp
+
+
+Source file was:
+int main() { return 0; }

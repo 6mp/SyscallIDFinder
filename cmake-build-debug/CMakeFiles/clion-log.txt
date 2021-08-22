@@ -1,0 +1,9 @@
+C:\Users\Matt\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_C_COMPILER=C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/VC/Tools/Llvm/x64/bin/clang-cl.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/VC/Tools/Llvm/x64/bin/clang-cl.exe" -DCMAKE_C_FLAGS=-m64 -DCMAKE_CXX_FLAGS=-m64 -G "CodeBlocks - NMake Makefiles" C:\Users\Matt\Desktop\QuickRepos\SyscallIDFinder
+-- Module support is disabled.
+-- Version: 8.0.1
+-- Build type: Debug
+-- CXX_STANDARD: 20
+-- Required features: cxx_variadic_templates
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug
