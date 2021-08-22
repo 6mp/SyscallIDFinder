@@ -28,22 +28,16 @@ The CXX compiler identification is Clang, found in "C:/Users/Matt/Desktop/QuickR
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_7a4e8\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.29.30129\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_7a4e8.dir\build.make /nologo -L                  CMakeFiles\cmTC_7a4e8.dir\build
-Building C object CMakeFiles/cmTC_7a4e8.dir/CMakeCCompilerABI.c.obj
-	C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\clang-cl.exe @C:\Users\Matt\AppData\Local\Temp\nm8BFF.tmp
-Linking C executable cmTC_7a4e8.exe
-	C:\Users\Matt\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_7a4e8.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\lld-link.exe /nologo @CMakeFiles\cmTC_7a4e8.dir\objects1.rsp @C:\Users\Matt\AppData\Local\Temp\nm8C20.tmp
+Run Build Command(s):C:/PROGRA~2/MICROS~2/2019/Preview/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_dee2e && [1/2] Building C object CMakeFiles\cmTC_dee2e.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_dee2e.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_12e52\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.29.30129\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_12e52.dir\build.make /nologo -L                  CMakeFiles\cmTC_12e52.dir\build
-Building CXX object CMakeFiles/cmTC_12e52.dir/CMakeCXXCompilerABI.cpp.obj
-	C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\clang-cl.exe @C:\Users\Matt\AppData\Local\Temp\nm8CBB.tmp
-Linking CXX executable cmTC_12e52.exe
-	C:\Users\Matt\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_12e52.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\lld-link.exe /nologo @CMakeFiles\cmTC_12e52.dir\objects1.rsp @C:\Users\Matt\AppData\Local\Temp\nm8CDB.tmp
+Run Build Command(s):C:/PROGRA~2/MICROS~2/2019/Preview/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_c8c72 && [1/2] Building CXX object CMakeFiles\cmTC_c8c72.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_c8c72.exe
 
 
 
@@ -52,11 +46,8 @@ Linking CXX executable cmTC_12e52.exe
 Detecting CXX [-std:c++14] compiler features compiled with the following output:
 Change Dir: C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_b8a9b\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.29.30129\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_b8a9b.dir\build.make /nologo -L                  CMakeFiles\cmTC_b8a9b.dir\build
-Building CXX object CMakeFiles/cmTC_b8a9b.dir/feature_tests.cxx.obj
-	C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\clang-cl.exe @C:\Users\Matt\AppData\Local\Temp\nm8D86.tmp
-Linking CXX executable cmTC_b8a9b.exe
-	C:\Users\Matt\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_b8a9b.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\lld-link.exe /nologo @CMakeFiles\cmTC_b8a9b.dir\objects1.rsp @C:\Users\Matt\AppData\Local\Temp\nm8DA6.tmp
+Run Build Command(s):C:/PROGRA~2/MICROS~2/2019/Preview/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_a13a3 && [1/2] Building CXX object CMakeFiles\cmTC_a13a3.dir\feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_a13a3.exe
 
 
 
@@ -121,11 +112,8 @@ Linking CXX executable cmTC_b8a9b.exe
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_192d8\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.29.30129\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_192d8.dir\build.make /nologo -L                  CMakeFiles\cmTC_192d8.dir\build
-Building CXX object CMakeFiles/cmTC_192d8.dir/feature_tests.cxx.obj
-	C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\clang-cl.exe @C:\Users\Matt\AppData\Local\Temp\nm8E51.tmp
-Linking CXX executable cmTC_192d8.exe
-	C:\Users\Matt\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_192d8.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\lld-link.exe /nologo @CMakeFiles\cmTC_192d8.dir\objects1.rsp @C:\Users\Matt\AppData\Local\Temp\nm8E81.tmp
+Run Build Command(s):C:/PROGRA~2/MICROS~2/2019/Preview/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_58a64 && [1/2] Building CXX object CMakeFiles\cmTC_58a64.dir\feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_58a64.exe
 
 
 
@@ -185,14 +173,29 @@ Linking CXX executable cmTC_192d8.exe
     Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
     Feature record: CXX_FEATURE:1cxx_return_type_deduction
     Feature record: CXX_FEATURE:1cxx_variable_templates
+Performing C++ SOURCE FILE Test has_std_20_flag succeeded with the following output:
+Change Dir: C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MICROS~2/2019/Preview/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_eafc1 && [1/2] Building CXX object CMakeFiles\cmTC_eafc1.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_eafc1.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test has_std_2a_flag succeeded with the following output:
+Change Dir: C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MICROS~2/2019/Preview/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_8bac3 && [1/2] Building CXX object CMakeFiles\cmTC_8bac3.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_8bac3.exe
+
+
+Source file was:
+int main() { return 0; }
 Performing C++ SOURCE FILE Test SUPPORTS_USER_DEFINED_LITERALS succeeded with the following output:
 Change Dir: C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_92ea2\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.29.30129\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_92ea2.dir\build.make /nologo -L                  CMakeFiles\cmTC_92ea2.dir\build
-Building CXX object CMakeFiles/cmTC_92ea2.dir/src.cxx.obj
-	C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\clang-cl.exe @C:\Users\Matt\AppData\Local\Temp\nm9602.tmp
-Linking CXX executable cmTC_92ea2.exe
-	C:\Users\Matt\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_92ea2.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\lld-link.exe /nologo @CMakeFiles\cmTC_92ea2.dir\objects1.rsp @C:\Users\Matt\AppData\Local\Temp\nm9632.tmp
+Run Build Command(s):C:/PROGRA~2/MICROS~2/2019/Preview/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_c23c2 && [1/2] Building CXX object CMakeFiles\cmTC_c23c2.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_c23c2.exe
 
 
 Source file was:
@@ -202,12 +205,8 @@ Source file was:
 Performing C++ SOURCE FILE Test FMT_HAS_VARIANT succeeded with the following output:
 Change Dir: C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_323fc\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.29.30129\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_323fc.dir\build.make /nologo -L                  CMakeFiles\cmTC_323fc.dir\build
-Building CXX object CMakeFiles/cmTC_323fc.dir/src.cxx.obj
-	C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\clang-cl.exe @C:\Users\Matt\AppData\Local\Temp\nm96CD.tmp
-clang-cl: warning: unknown argument ignored in clang-cl: '-std=c++1z' [-Wunknown-argument]
-Linking CXX executable cmTC_323fc.exe
-	C:\Users\Matt\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_323fc.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\lld-link.exe /nologo @CMakeFiles\cmTC_323fc.dir\objects1.rsp @C:\Users\Matt\AppData\Local\Temp\nm9816.tmp
+Run Build Command(s):C:/PROGRA~2/MICROS~2/2019/Preview/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_d7a46 && [1/2] Building CXX object CMakeFiles\cmTC_d7a46.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_d7a46.exe
 
 
 Source file was:
@@ -217,11 +216,8 @@ Source file was:
 Performing C++ SOURCE FILE Test HAS_NULLPTR_WARNING succeeded with the following output:
 Change Dir: C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_0068d\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.29.30129\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_0068d.dir\build.make /nologo -L                  CMakeFiles\cmTC_0068d.dir\build
-Building CXX object CMakeFiles/cmTC_0068d.dir/src.cxx.obj
-	C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\clang-cl.exe @C:\Users\Matt\AppData\Local\Temp\nm98B1.tmp
-Linking CXX executable cmTC_0068d.exe
-	C:\Users\Matt\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_0068d.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\lld-link.exe /nologo @CMakeFiles\cmTC_0068d.dir\objects1.rsp @C:\Users\Matt\AppData\Local\Temp\nm98C2.tmp
+Run Build Command(s):C:/PROGRA~2/MICROS~2/2019/Preview/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_26994 && [1/2] Building CXX object CMakeFiles\cmTC_26994.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_26994.exe
 
 
 Source file was:
@@ -229,11 +225,8 @@ int main() { return 0; }
 Determining if the _strtod_l exist passed with the following output:
 Change Dir: C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_3bd84\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.29.30129\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_3bd84.dir\build.make /nologo -L                  CMakeFiles\cmTC_3bd84.dir\build
-Building C object CMakeFiles/cmTC_3bd84.dir/CheckSymbolExists.c.obj
-	C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\clang-cl.exe @C:\Users\Matt\AppData\Local\Temp\nm996D.tmp
-Linking C executable cmTC_3bd84.exe
-	C:\Users\Matt\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\cmTC_3bd84.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\Preview\VC\Tools\Llvm\x64\bin\lld-link.exe /nologo @CMakeFiles\cmTC_3bd84.dir\objects1.rsp @C:\Users\Matt\AppData\Local\Temp\nm999D.tmp
+Run Build Command(s):C:/PROGRA~2/MICROS~2/2019/Preview/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_353dd && [1/2] Building C object CMakeFiles\cmTC_353dd.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_353dd.exe
 
 
 File C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:

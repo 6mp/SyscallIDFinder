@@ -21,22 +21,8 @@ CMAKE_AR:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/VC
 // MinSizeRel ...
 CMAKE_BUILD_TYPE:STRING=Debug
 
-//Id string of the compiler for the CodeBlocks IDE. Automatically
-// detected when left empty
-CMAKE_CODEBLOCKS_COMPILER_ID:STRING=
-
-//The CodeBlocks executable
-CMAKE_CODEBLOCKS_EXECUTABLE:FILEPATH=CMAKE_CODEBLOCKS_EXECUTABLE-NOTFOUND
-
-//Additional command line arguments when CodeBlocks invokes make.
-// Enter e.g. -j<some_number> to get parallel builds
-CMAKE_CODEBLOCKS_MAKE_ARGUMENTS:STRING=
-
-//Enable/Disable color output during build.
-CMAKE_COLOR_MAKEFILE:BOOL=ON
-
-//No help, variable specified on the command line.
-CMAKE_CXX_COMPILER:UNINITIALIZED=C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/VC/Tools/Llvm/x64/bin/clang-cl.exe
+//CXX compiler
+CMAKE_CXX_COMPILER:STRING=C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/VC/Tools/Llvm/x64/bin/clang-cl.exe
 
 //LLVM archiver
 CMAKE_CXX_COMPILER_AR:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/VC/Tools/Llvm/x64/bin/llvm-ar.exe
@@ -62,8 +48,8 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/Zi /O2 /Ob1 /DNDEBUG
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
 
-//No help, variable specified on the command line.
-CMAKE_C_COMPILER:UNINITIALIZED=C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/VC/Tools/Llvm/x64/bin/clang-cl.exe
+//C compiler
+CMAKE_C_COMPILER:STRING=C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/VC/Tools/Llvm/x64/bin/clang-cl.exe
 
 //LLVM archiver
 CMAKE_C_COMPILER_AR:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/VC/Tools/Llvm/x64/bin/llvm-ar.exe
@@ -103,6 +89,9 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
 
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
+
+//Enable/Disable output of compile commands during generation.
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 
 //User executables (bin)
 CMAKE_INSTALL_BINDIR:PATH=bin
@@ -158,8 +147,8 @@ CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/VC/Tools/Llvm/x64/bin/lld-link.exe
 
-//Program used to build from makefiles.
-CMAKE_MAKE_PROGRAM:STRING=nmake
+//make program
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~2/MICROS~2/2019/Preview/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -347,8 +336,6 @@ CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=19
 //Patch version of cmake used to create the current loaded cache
 CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
-//ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
-CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=C:/Users/Matt/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/bin/cmake/win/bin/cmake.exe
 //Path to cpack program executable.
@@ -403,18 +390,12 @@ CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
+CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
-CMAKE_EXTRA_GENERATOR:INTERNAL=CodeBlocks
-//CXX compiler system defined macros
-CMAKE_EXTRA_GENERATOR_CXX_SYSTEM_DEFINED_MACROS:INTERNAL=
-//CXX compiler system include directories
-CMAKE_EXTRA_GENERATOR_CXX_SYSTEM_INCLUDE_DIRS:INTERNAL=
-//C compiler system defined macros
-CMAKE_EXTRA_GENERATOR_C_SYSTEM_DEFINED_MACROS:INTERNAL=
-//C compiler system include directories
-CMAKE_EXTRA_GENERATOR_C_SYSTEM_INCLUDE_DIRS:INTERNAL=
+CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
-CMAKE_GENERATOR:INTERNAL=NMake Makefiles
+CMAKE_GENERATOR:INTERNAL=Ninja
 //Generator instance identifier.
 CMAKE_GENERATOR_INSTANCE:INTERNAL=
 //Name of generator platform.
@@ -528,7 +509,7 @@ SUPPORTS_USER_DEFINED_LITERALS:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/SyscallIDFinder
 //Test has_std_20_flag
-has_std_20_flag:INTERNAL=
+has_std_20_flag:INTERNAL=1
 //Test has_std_2a_flag
-has_std_2a_flag:INTERNAL=
+has_std_2a_flag:INTERNAL=1
 
