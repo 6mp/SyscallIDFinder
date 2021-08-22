@@ -39,7 +39,7 @@ public:
 			m_exported_fns[ this->GetName( idx ) ] = this->GetAddress( idx );
 	}
 
-	[[nodiscard]] auto GetFunctions() -> std::unordered_map<std::string_view, std::uintptr_t> {
+	[[nodiscard]] auto GetFunctions( ) -> std::unordered_map<std::string_view, std::uintptr_t> {
 		return this->m_exported_fns;
 	}
 
@@ -51,7 +51,8 @@ public:
 
 // The syscall ID is 2 bytes in length and starts 4 bytes into the function
 // https://www.ired.team/offensive-security/defense-evasion/retrieving-ntdll-syscall-stubs-at-run-time#reminder
-template<typename Ty>
+template <typename Ty>
 __forceinline auto GetSyscallIndex( Ty function_address ) -> std::uint16_t {
+	static_assert( std::is_integral_v<Ty>, "function_address is not an integral type" );
 	return *reinterpret_cast<std::uint16_t*>( reinterpret_cast<std::uintptr_t>( function_address ) + 4 );
 }
