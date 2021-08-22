@@ -1,6 +1,0 @@
-C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/CMakeFiles/SyscallIDFinder.dir
-C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/_deps/fmt-build/CMakeFiles/edit_cache.dir
-C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/_deps/fmt-build/CMakeFiles/fmt.dir
-C:/Users/Matt/Desktop/QuickRepos/SyscallIDFinder/cmake-build-debug/_deps/fmt-build/CMakeFiles/rebuild_cache.dir
