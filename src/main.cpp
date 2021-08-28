@@ -28,7 +28,7 @@ int main( ) {
 	}
 
 	Io::Log<fmt::color::green>( "{} id is {:X}\n", function_name,
-								GetSyscallIndex( module.GetFunctions( )[ function_name ] ) );
+				    GetSyscallIndex( module.GetFunctions( )[ function_name ] ) );
 
 	/* doing this method results in 6 invalid syscalls, I am looking for a better way to sort them
 	ExportParser ntdll( reinterpret_cast<std::uintptr_t>( LoadLibrary( "ntdll.dll" ) ) );
