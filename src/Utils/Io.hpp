@@ -7,6 +7,8 @@
 #include <fmt/core.h>
 #include <fmt/color.h>
 
+#include <iostream>
+
 namespace Io {
 	__forceinline auto InitConsole( ) -> void {
 		auto console_handle = GetConsoleWindow( );
@@ -17,7 +19,7 @@ namespace Io {
 	}
 
 	template<fmt::color Color = fmt::color::white, typename... Args>
-	__forceinline constexpr auto Log( std::string_view message, Args... args ) -> void {
+	__forceinline auto Log( std::string_view message, Args... args ) -> void {
 
 		try {
 			fmt::print( fg( Color ), message, args... );
