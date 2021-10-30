@@ -39,7 +39,7 @@ public:
 		for ( auto idx{ 0 }; idx < this->GetSize( ); idx++ ) {
 			auto lower_name = this->GetName( idx );
 
-			std::ranges::transform( lower_name.begin( ), lower_name.end( ), lower_name.begin( ),
+			std::transform( lower_name.begin( ), lower_name.end( ), lower_name.begin( ),
 									[]( std::uint8_t c ) -> std::uint8_t { return std::tolower( c ); } );
 
 			m_exported_fns[ lower_name ] = this->GetAddress( idx );
