@@ -46,7 +46,7 @@ public:
 		}
 	}
 
-	[[nodiscard]] auto GetFunctions( ) -> std::unordered_map<std::string, std::uintptr_t> {
+	[[nodiscard]] auto GetFunctions( ) -> std::unordered_map<std::string, std::uintptr_t>& {
 		return this->m_exported_fns;
 	}
 
